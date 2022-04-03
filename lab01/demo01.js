@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
 //tiếp theo ta tạo server từ biến server
 //nếu nghe được thì ghi ra dòng dưới
 server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server is running at http://${hostname}:${port}`);
 });
 
 
